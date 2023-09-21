@@ -10,4 +10,4 @@ const notesRouter = require('./routes/notes');
 
 app.use('/users', userRouter);
 app.use('/notes', notesRouter);
-app.listen(3000);
+module.exports = app;
